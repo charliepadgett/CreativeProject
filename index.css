@@ -1,0 +1,56 @@
+html{
+background-color: red;
+    margin: 30px;
+    border:10px;
+    border-style: dashed;
+    border-color: blue;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+.Twitter{
+
+    float: left;
+    padding: 20px;
+    border: 3px;
+    border-style: dashed;
+    border-color: blue;
+}
+.Twitter li:nth-of-type(odd){
+    color:  darkblue;
+}
+.Other li:nth-last-of-type(odd){
+    color: darkgreen;
+}
+.Other{
+    
+    float: left;
+    padding: 20px;
+    border: 3px;
+    border-style: dashed;
+    border-color: blue;
+    
+}
+.Roster{
+   
+    padding:20px;
+    border: 3px;
+    border-style: dashed;
+    border-color: blue;
+    float: left;
+}
+
+#Lineup li{
+    color: darkgreen;
+}
+#Pitchers li{
+    color: darkblue;
+}
+#info li{
+    font-size: 125%;
+}
+h3{
+    margin: 0;
+    border: 0;
+}
